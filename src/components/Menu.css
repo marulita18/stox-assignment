@@ -1,4 +1,4 @@
-.navbar-wrapper {
+.navbarWrapper {
   margin: 0;
   padding: 0;
   position: relative;
@@ -76,7 +76,7 @@
   width: 40px;
 }
 
-.stox-logo {
+.stoxLogo {
   position: relative;
   left: 110px;
   top: -14px;
@@ -87,7 +87,7 @@
   justify-content: space-between;
 }
 
-.logo-wrapper {
+.logoWrapper {
   position: relative;
   max-width: 95%;
 }
