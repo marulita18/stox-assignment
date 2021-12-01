@@ -1,5 +1,4 @@
 import "./App.css";
-import Menu from "./components/Menu";
 import Homepage from "./pages/Homepage";
 
 function App() {

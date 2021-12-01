@@ -1,7 +1,7 @@
 import React from "react";
-import "./Menu.css";
-import logo from "./stox-logo.png";
-import shoppingBag from "./pngtree-vector-shopping-bag-icon-png-image_695384.jpg";
+import "./menu.css";
+import logo from "../pictures/stox-logo.png";
+import shoppingBag from "../pictures/pngtree-vector-shopping-bag-icon-png-image_695384.jpg";
 
 export default function Menu(props) {
   const { openMenu, setOpenMenu } = props;
