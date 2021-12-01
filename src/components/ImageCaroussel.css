@@ -1,0 +1,12 @@
+.carousselWrapper {
+  display: flex;
+  overflow-x: auto;
+  max-width: 100vw;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.carousselWrapper::-webkit-scrollbar {
+  display: none;
+}
