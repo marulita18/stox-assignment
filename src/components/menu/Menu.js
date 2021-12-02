@@ -1,7 +1,7 @@
 import React from "react";
 import "./menu.css";
 import logo from "../pictures/stox-logo.png";
-import shoppingBag from "../pictures/pngtree-vector-shopping-bag-icon-png-image_695384.jpg";
+import bag from "../pictures/shoppingcart.png";
 
 export default function Menu(props) {
   const { openMenu, setOpenMenu } = props;
@@ -17,7 +17,7 @@ export default function Menu(props) {
       <div className="logoWrapper">
         <div className="logos">
           <img src={logo} alt="logo" className="stoxLogo" />
-          <img src={shoppingBag} alt="shopping bag" className="shoppingLogo" />
+          <img src={bag} alt="shopping bag" className="shoppingLogo" />
         </div>
       </div>
     </div>

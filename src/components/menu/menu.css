@@ -74,12 +74,14 @@
 
 .shoppingLogo {
   width: 40px;
+  height: 40px;
 }
 
 .stoxLogo {
   position: relative;
   left: 110px;
-  top: -14px;
+  top: -6px;
+  max-width: 220px;
 }
 
 .logos {

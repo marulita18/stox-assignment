@@ -61,8 +61,8 @@ export default function MenuOpenContent() {
         <ImageCaroussel />
       </div>
       <div>
-        {accordionItem.map((item) => (
-          <Accordion item={item} />
+        {accordionItem.map((item, i) => (
+          <Accordion item={item} key={i} />
         ))}
       </div>
     </div>

@@ -13,8 +13,8 @@ export default function ImageCaroussel() {
 
   return (
     <div className="carousselWrapper">
-      {imagesArray.map((image) => {
-        return <img src={image} alt="menu images" />;
+      {imagesArray.map((image, i) => {
+        return <img src={image} alt="menu images" key={i} />;
       })}
     </div>
   );

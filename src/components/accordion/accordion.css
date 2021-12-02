@@ -22,3 +22,7 @@
 .submenuItem span {
   color: gray;
 }
+
+hr {
+  width: 70%;
+}
